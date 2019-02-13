@@ -1,0 +1,7 @@
+D:\Github\BegginerCSharp\FirstApp\FirstApp\bin\Debug\FirstApp.exe.config
+D:\Github\BegginerCSharp\FirstApp\FirstApp\bin\Debug\FirstApp.exe
+D:\Github\BegginerCSharp\FirstApp\FirstApp\bin\Debug\FirstApp.pdb
+D:\Github\BegginerCSharp\FirstApp\FirstApp\obj\Debug\FirstApp.csprojAssemblyReference.cache
+D:\Github\BegginerCSharp\FirstApp\FirstApp\obj\Debug\FirstApp.csproj.CoreCompileInputs.cache
+D:\Github\BegginerCSharp\FirstApp\FirstApp\obj\Debug\FirstApp.exe
+D:\Github\BegginerCSharp\FirstApp\FirstApp\obj\Debug\FirstApp.pdb
