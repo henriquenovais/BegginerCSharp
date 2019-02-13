@@ -13,9 +13,12 @@ namespace FirstApp
         {
             string characterName = "Henrique"; //Declaring string
             int characterAge; // Declaring int
+            //float, double[most cases], decimal[insane precision]
+            double gpa = 2.0;
+            bool isMale = true; //Boolean
             characterAge = 24; 
-            Console.Write("Name:" + characterName + "\n");
-            Console.WriteLine("Age:" + characterAge + "\n");
+            Console.WriteLine("Name:" + characterName);
+            Console.WriteLine("Age:" + characterAge);
             Console.ReadLine();
         }
     }
