@@ -30,11 +30,29 @@ namespace FirstApp
             //Ex: string[0]
             Console.ReadLine();
             */
+            /*
             //Simple user input:
             Console.Write("Enter your ID: ");
-            string userInput = Console.ReadLine();
+            string userInput = Console.ReadLine(); //A user input through line is ALWAYS a string!
             Console.WriteLine("The name you typed was: " + userInput);
             Console.ReadLine();
+            */
+            /*
+            //Creating a simple calculator through user input:
+            Console.Write("Enter the first number: ");
+            double number1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter the second number: ");
+            double number2 = Convert.ToDouble(Console.ReadLine());
+            //Use Convert.ToInt32 in order to convert the string to integer
+            //double result = number1 + number2;
+            Console.WriteLine(number1 + number2);//Why the hell is this not being correctly printed?
+            Console.ReadLine();
+            */
+            /*
+             //Fill in the poem:
+             */
+
+
         }
     }
 }
