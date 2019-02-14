@@ -123,22 +123,52 @@ namespace FirstApp
                index = index + 10;
            }
            */
-           /*
-           //Testing two dimensional arrays(matrix):
-            int[,] numberGrid =
+            /*
+            //Testing two dimensional arrays(matrix):
+             int[,] numberGrid =
+             {
+                 {1,2},
+                 {3,4},
+                 {6,7 }
+             };
+             for (int i = 0; i < 3;i++)
+             {
+                 for(int j = 0; j < 2; j++) {
+                     Console.WriteLine(numberGrid[i, j]);
+                 }
+             }
+             */
+
+            /*
+            //Exception handling through C#:
+             */
+            
+            try
             {
-                {1,2},
-                {3,4},
-                {6,7 }
-            };
-            for (int i = 0; i < 3;i++)
-            {
-                for(int j = 0; j < 2; j++) {
-                    Console.WriteLine(numberGrid[i, j]);
-                }
+                Console.WriteLine("Insert the number you want as dividend:");
+                double number1 = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Insert the number you want as divider:");
+                double number2 = Convert.ToDouble(Console.ReadLine());
+                number1 = number1 / number2;
+                Console.WriteLine("The result is: " + number1);
             }
-            */
+            catch(DivideByZeroException e)
+            {
+                //catch(Exception e){} can be used for a more generalistic approach to the error handling.
+                /*
+                It is not recommended to use the generalistic approach because the steps necessary
+                for a proper error handling may require very different solutions. It is much better
+                to treat errors through specific solutioning.
+                */
+                Console.WriteLine(e.Message);
+            }
+            catch(FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
             Console.Read();
+            
 
         }
         //Creating a method without returning a value:
