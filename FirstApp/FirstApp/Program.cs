@@ -11,7 +11,6 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
-
             /*
             
             Basic data manipulation:
@@ -49,10 +48,22 @@ namespace FirstApp
             Console.ReadLine();
             */
             /*
-             //Fill in the poem:
-             */
-
-
+            //Basic array programming:
+            int[] array = { 5, 4, 6, 10, 15 }; 
+            string[] arrayOfStrings = { "kappa","many","manyy", "stringss"};
+            Console.WriteLine(arrayOfStrings[2]);
+            Console.WriteLine(array[4]);
+            Console.WriteLine(array[3]);
+            Console.Read();
+            */
+            SayHi("Henrique", 23);
         }
+        //Creating a method without returning a value:
+        static void SayHi(string name, int age)
+        {
+            Console.WriteLine("Hello! My name is " + name + " and my age is " + age + ".");
+            Console.Read();
+        }
+
     }
 }

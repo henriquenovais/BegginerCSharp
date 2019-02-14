@@ -5,3 +5,10 @@ D:\Github\BegginerCSharp\FirstApp\FirstApp\obj\Debug\FirstApp.csprojAssemblyRefe
 D:\Github\BegginerCSharp\FirstApp\FirstApp\obj\Debug\FirstApp.csproj.CoreCompileInputs.cache
 D:\Github\BegginerCSharp\FirstApp\FirstApp\obj\Debug\FirstApp.exe
 D:\Github\BegginerCSharp\FirstApp\FirstApp\obj\Debug\FirstApp.pdb
+D:\CSharp101\FirstApp\FirstApp\bin\Debug\FirstApp.exe.config
+D:\CSharp101\FirstApp\FirstApp\bin\Debug\FirstApp.exe
+D:\CSharp101\FirstApp\FirstApp\bin\Debug\FirstApp.pdb
+D:\CSharp101\FirstApp\FirstApp\obj\Debug\FirstApp.csprojAssemblyReference.cache
+D:\CSharp101\FirstApp\FirstApp\obj\Debug\FirstApp.csproj.CoreCompileInputs.cache
+D:\CSharp101\FirstApp\FirstApp\obj\Debug\FirstApp.exe
+D:\CSharp101\FirstApp\FirstApp\obj\Debug\FirstApp.pdb
