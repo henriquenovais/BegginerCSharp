@@ -63,6 +63,8 @@ namespace FirstApp
             Console.WriteLine(number);
             Console.Read();
             */
+            /*
+            // Experimenting with sequential deviation:
             bool isMale;
             bool isTall;
             Console.WriteLine("Are you tall? ");
@@ -78,6 +80,49 @@ namespace FirstApp
                 Console.WriteLine("You are either not male or not tall.");
                 Console.Read();
             }
+            */
+
+            /*
+            //Creating a switch case:
+                            int luckyNumber;
+            luckyNumber = Convert.ToInt32(Console.ReadLine());
+             switch (luckyNumber)
+            {
+                case 0:
+                    Console.Write("Case number zero");
+                    break;
+                case 1:
+                    Console.Write("Case number one");
+                    break;
+                case 2:
+                    Console.Write("Case number two");
+                    break;
+                case 3:
+                    Console.Write("Case number three");
+                    break;
+                case 4:
+                    Console.Write("Case number four");
+                    break;
+                default:
+                    Console.Write("Invalid number was input");
+                    break;
+            }
+             */
+            //Implementing for and white loops:
+            int index = 5;
+            for (int i = 0; i < index;i++)
+            {
+                Console.WriteLine("This is \"for\" loop!");
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("Testing!!");
+            while (index < 50)
+            {
+                Console.WriteLine("This is a \"while\" loop!");
+                index = index + 10;
+            }
+
+            Console.Read();
 
         }
         //Creating a method without returning a value:
