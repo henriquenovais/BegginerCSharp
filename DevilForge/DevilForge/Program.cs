@@ -17,6 +17,8 @@ namespace DevilForge
         {
             InnocentDevil bonny = new InnocentDevil(80, 1);
             Console.WriteLine(bonny.MaxHearts);
+            Console.WriteLine(bonny.DevilLevel);
+            InnocentDevil.DevilForge();
             Console.Read();
         }
     }
