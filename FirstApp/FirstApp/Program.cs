@@ -56,13 +56,41 @@ namespace FirstApp
             Console.WriteLine(array[3]);
             Console.Read();
             */
+            /* 
+            //Creating and testing methods:
             SayHi("Henrique", 23);
+            int number = Cube(5);
+            Console.WriteLine(number);
+            Console.Read();
+            */
+            bool isMale;
+            bool isTall;
+            Console.WriteLine("Are you tall? ");
+            isMale = Convert.ToBoolean(Console.ReadLine());
+            Console.WriteLine("Are you male? ");
+            isTall = Convert.ToBoolean(Console.ReadLine());
+            if (isMale &&  isTall)
+            {
+                Console.WriteLine("You are male and tall!");
+                Console.Read();
+            } else
+            {
+                Console.WriteLine("You are either not male or not tall.");
+                Console.Read();
+            }
+
         }
         //Creating a method without returning a value:
         static void SayHi(string name, int age)
         {
             Console.WriteLine("Hello! My name is " + name + " and my age is " + age + ".");
-            Console.Read();
+
+        }
+        //Creating a method that does return a value:
+        static int Cube(int number)
+        {
+            number = number * number * number;
+            return number;
         }
 
     }
