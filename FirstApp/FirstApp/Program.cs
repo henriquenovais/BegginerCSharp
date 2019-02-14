@@ -108,20 +108,36 @@ namespace FirstApp
                     break;
             }
              */
-            //Implementing for and white loops:
-            int index = 5;
-            for (int i = 0; i < index;i++)
+            /*
+           //Implementing for and white loops:
+           int index = 5;
+           for (int i = 0; i < index;i++)
+           {
+               Console.WriteLine("This is \"for\" loop!");
+               Console.WriteLine(i);
+           }
+           Console.WriteLine("Testing!!");
+           while (index < 50)
+           {
+               Console.WriteLine("This is a \"while\" loop!");
+               index = index + 10;
+           }
+           */
+           /*
+           //Testing two dimensional arrays(matrix):
+            int[,] numberGrid =
             {
-                Console.WriteLine("This is \"for\" loop!");
-                Console.WriteLine(i);
-            }
-            Console.WriteLine("Testing!!");
-            while (index < 50)
+                {1,2},
+                {3,4},
+                {6,7 }
+            };
+            for (int i = 0; i < 3;i++)
             {
-                Console.WriteLine("This is a \"while\" loop!");
-                index = index + 10;
+                for(int j = 0; j < 2; j++) {
+                    Console.WriteLine(numberGrid[i, j]);
+                }
             }
-
+            */
             Console.Read();
 
         }
