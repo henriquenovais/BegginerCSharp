@@ -166,6 +166,11 @@ namespace FirstApp
             {
                 Console.WriteLine(e.Message);
             }
+            finally
+            {
+                Console.WriteLine("This code will always be executed no matter what.");
+            }
+
 
             Console.Read();
             
@@ -183,6 +188,7 @@ namespace FirstApp
             number = number * number * number;
             return number;
         }
+
 
     }
 }
